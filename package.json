@@ -17,10 +17,9 @@
         "lint:backend": "backend/vendor/bin/pint",
         "lint:frontend": "npm run lint --prefix frontend"
     },
-    "devDependencies": {
-        "concurrently": "^9.1.2"
-    },
+    "devDependencies": {},
     "dependencies": {
+        "concurrently": "^9.1.2",
         "@nuxtjs/i18n": "^10.2.3",
         "nuxt-gtag": "^4.1.0"
     }
